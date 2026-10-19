@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>MzansiChat | Done-for-you WhatsApp Marketing for Gauteng Businesses</title>
+  <meta name="description" content="We build and manage your WhatsApp customer-growth system, create your campaigns and help you stay in touch with opted-in customers. R5,950 once-off setup; R3,495/month including WhatChimp. Based in Johannesburg.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght,SOFT,WONK@9..144,500,50,1;9..144,600,50,1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #19312b;
+      --ink-soft: #40584f;
+      --muted: #657971;
+      --green: #117a54;
+      --green-bright: #21c575;
+      --mint: #e7f5eb;
+      --cream: #fbfaf5;
+      --paper: #ffffff;
+      --line: #e0e7e0;
+      --yellow: #ffe9a1;
+      --peach: #f4e8de;
+      --serif: 'Fraunces', Georgia, serif;
+      --sans: 'DM Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+      --shadow: 0 24px 70px rgba(22, 56, 44, .10);
+    }
+    * {box-sizing:border-box}
+    html { scroll-behavior:smooth }
+    body { margin:0; font:400 16px/1.6 var(--sans); color:var(--ink); background:var(--cream); -webkit-font-smoothing:antialiased; }
+    a { color:inherit; text-decoration:none }
+    button { font:inherit }
+    button, a { -webkit-tap-highlight-color:transparent }
+    a:focus-visible, button:focus-visible, summary:focus-visible {outline:3px solid #e6a914;outline-offset:4px}
+    .mc-page {width:100%;overflow:hidden}
+    .mc-wrap {max-width:1170px;margin:auto;padding:0 32px}
+    .mc-eyebrow {display:inline-flex;align-items:center;gap:9px;font-size:11px;line-height:1.3;letter-spacing:.15em;text-transform:uppercase;font-weight:800;color:var(--green)}
+    .mc-eyebrow:before {content:'';height:7px;width:7px;background:var(--green-bright);border-radius:50%;box-shadow:0 0 0 4px rgba(33,197,117,.12)}
+    .mc-section-title {font:600 clamp(32px,4.4vw,52px)/1.11 var(--serif);letter-spacing:-.037em;margin:18px 0 20px;max-width:730px}
+    .mc-section-sub {font-size:17px;color:var(--ink-soft);max-width:690px;line-height:1.75}
+    .mc-btn {display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:15px 23px;border-radius:10px;font-size:14px;line-height:1.4;font-weight:800;transition:transform .2s,box-shadow .2s,background .2s;border:1px solid transparent;white-space:nowrap}
+    .mc-btn:hover {transform:translateY(-2px)}
+    .mc-btn-primary {color:#fff;background:var(--green);box-shadow:0 10px 24px rgba(17,122,84,.15)}
+    .mc-btn-primary:hover {background:#0d6646;box-shadow:0 14px 30px rgba(17,122,84,.2)}
+    .mc-btn-outline {border-color:#b9cec1;background:transparent;color:var(--ink)}
+    .mc-btn-outline:hover {background:#fff}
+    .mc-arrow {display:inline-block;transform:translateY(-1px);font-size:18px;font-weight:400}
+    .mc-wa {width:18px;height:18px;flex:none}
+
+    /* Top stripe: intentionally compact for embedding below Google Sites navigation. */
+    .mc-strip {background:var(--ink);color:#f3f7f2}
+    .mc-strip-inner {display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:45px;font-size:11px;letter-spacing:.06em;font-weight:600}
+    .mc-strip strong {color:#89d8a8;font-weight:700}
+    .mc-strip a {color:#d2f6de;text-decoration:underline;text-decoration-color:rgba(210,246,222,.35);text-underline-offset:4px}
+
+    /* Hero */
+    .mc-hero {position:relative;background:radial-gradient(ellipse at 94% 0%,#e4f5e7 0%,rgba(228,245,231,0) 46%),linear-gradient(145deg,#fffefb 0%,#fbfaf5 63%,#f7f8ec 100%);padding:84px 0 74px}
+    .mc-hero:after {content:'';position:absolute;left:-7%;bottom:-55px;width:280px;height:280px;border:1px solid rgba(17,122,84,.11);border-radius:50%;pointer-events:none}
+    .mc-hero-grid {display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);align-items:center;gap:38px}
+    .mc-hero-copy {position:relative;z-index:2;padding-bottom:12px}
+    .mc-hero h1 {font:600 clamp(49px,5.45vw,76px)/1.055 var(--serif);letter-spacing:-.059em;margin:22px -22px 26px 0;max-width:665px}
+    .mc-hero h1 em {font-style:normal;color:var(--green);position:relative}
+    .mc-hero h1 em:after {content:'';position:absolute;bottom:-6px;left:0;width:75%;height:5px;background:var(--yellow);transform:rotate(-1.3deg);border-radius:999px;z-index:-1}
+    .mc-hero-lede {font-size:18px;line-height:1.76;color:#44584e;max-width:550px;margin:0 0 30px}
+    .mc-hero-actions {display:flex;align-items:center;flex-wrap:wrap;gap:14px}
+    .mc-mininote {font-size:12px;margin:18px 0 0;color:#6b7f71;line-height:1.7}
+    .mc-mininote b {color:#355d49;font-weight:700}
+    .mc-hero-proof {display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-top:42px;padding-top:24px;border-top:1px solid #d9e4d9;font-size:12px;font-weight:800;color:#436153}
+    .mc-hero-proof span {display:flex;gap:7px;align-items:center}
+    .mc-check {display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:#daf1e0;color:var(--green);font-size:12px;font-weight:900}
+
+    /* Illustrated—not a live screenshot—WhatsApp journey */
+    .mc-visual {position:relative;min-height:602px;display:flex;align-items:center;justify-content:center;isolation:isolate}
+    .mc-orb {position:absolute;z-index:-1;inset:32px 0 25px 4%;background:linear-gradient(147deg,#cee9d1 3%,#ddf1da 54%,#e6f3d9 100%);border-radius:45% 55% 52% 48% / 55% 46% 54% 45%;transform:rotate(-8deg)}
+    .mc-orb:before {content:'';position:absolute;border:2px solid rgba(255,255,255,.76);inset:17px;border-radius:inherit}
+    .mc-phone {width:306px;max-width:78%;background:#fff;border:8px solid #183b2f;border-radius:39px;padding:10px;box-shadow:0 31px 60px rgba(15,67,41,.20),8px 12px 0 rgba(255,255,255,.52);transform:rotate(3.2deg);position:relative}
+    .mc-phone:before {content:'';width:83px;height:18px;background:#183b2f;position:absolute;top:-2px;left:50%;transform:translateX(-50%);border-radius:0 0 14px 14px;z-index:5}
+    .mc-screen {min-height:505px;background:#e9f2e9;border-radius:24px;overflow:hidden}
+    .mc-chat-head {display:flex;align-items:center;gap:10px;background:#f8fcf9;padding:25px 13px 12px;border-bottom:1px solid #dce6dc}
+    .mc-chat-avatar {width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#fff;font-weight:800;font-size:11px}
+    .mc-chat-head strong {display:block;font-size:12px;line-height:1.2}
+    .mc-chat-head small {display:block;font-size:10px;color:#687b70;margin-top:3px}
+    .mc-chat-dots {margin-left:auto;font-size:16px;color:#7f8d83;font-weight:700}
+    .mc-chat-body {padding:17px 13px;display:flex;flex-direction:column;gap:12px;min-height:407px;background-color:#edf3ea;background-image:radial-gradient(#cfe5d5 1px,transparent 1px);background-size:23px 23px}
+    .mc-bubble {padding:11px 12px;border-radius:11px;font-size:11.5px;line-height:1.52;box-shadow:0 2px 7px rgba(15,52,35,.05);max-width:92%}
+    .mc-bubble.user {background:#d7f7d6;align-self:flex-end;border-bottom-right-radius:3px}
+    .mc-bubble.business {background:#fff;align-self:flex-start;border-bottom-left-radius:3px}
+    .mc-bubble small {color:#6b8b78;font-size:9px;display:block;text-align:right;margin-top:4px}
+    .mc-answer {display:flex;gap:6px;margin-top:9px}
+    .mc-answer span {background:#effaf2;border:1px solid #c9e8d1;border-radius:7px;padding:5px 8px;font-size:10px;font-weight:800;color:#176b46}
+    .mc-chat-input {background:#fff;display:flex;align-items:center;gap:8px;padding:9px 12px;color:#8a988e;font-size:10px}
+    .mc-chat-input span {background:#f1f5f2;flex:1;border-radius:30px;padding:7px 11px}
+    .mc-chat-send {background:#17835c;color:#fff;display:grid;place-items:center;width:22px;height:22px;border-radius:50%;font-size:12px}
+    .mc-float {position:absolute;background:#fff;box-shadow:0 13px 35px rgba(19,60,42,.13);border:1px solid #e0e9de;border-radius:14px;padding:14px 16px;max-width:200px;z-index:3}
+    .mc-float-one {left:-3%;top:19%;transform:rotate(-6deg)}
+    .mc-float-two {right:-5%;bottom:14%;transform:rotate(5deg)}
+    .mc-float-kicker {font-size:9px;letter-spacing:.12em;font-weight:800;color:#6b8c7c;text-transform:uppercase}
+    .mc-float-title {font-size:13px;font-weight:800;color:#264437;margin-top:6px;line-height:1.3}
+    .mc-float-title:before {content:'✓';color:var(--green);display:inline-flex;width:22px;height:22px;border-radius:50%;align-items:center;justify-content:center;background:#ddf4e6;margin-right:6px}
+    .mc-float-caption {display:block;font-size:10px;line-height:1.5;color:#698074;margin-top:6px}
+    .mc-visual-note {position:absolute;bottom:4px;right:15%;font-size:10px;color:#587366;letter-spacing:.02em}
+
+    /* Client proof */
+    .mc-proof {background:#f0f6ee;padding:55px 0}
+    .mc-proof-card {display:grid;grid-template-columns:1fr 2fr;gap:42px;align-items:center}
+    .mc-proof-aside {border-right:1px solid #d1e3d5;padding:12px 35px 12px 0}
+    .mc-proof-aside .mc-proof-sticker {font:600 34px/1.05 var(--serif);letter-spacing:-.035em;margin:18px 0 9px}
+    .mc-proof-aside p {font-size:12px;color:#62806f;margin:0}
+    .mc-proof-quote {position:relative;padding:10px 0 0 0}
+    .mc-proof-quote:before {content:'“';position:absolute;left:-15px;top:-20px;font:600 82px/1 var(--serif);color:#8bbaa1;opacity:.35}
+    .mc-proof blockquote {margin:0}
+    .mc-proof blockquote p {font:500 clamp(18px,2.15vw,25px)/1.5 var(--serif);letter-spacing:-.016em;margin:0 0 11px}
+    .mc-proof footer {font-size:12px;font-weight:800;color:#527464;margin-top:21px}
+    .mc-proof footer span {font-weight:500;color:#738e7e}
+
+    /* Three actual responsibilities */
+    .mc-how {background:#fff;padding:103px 0 103px}
+    .mc-how-head {display:flex;gap:50px;align-items:end;justify-content:space-between;margin-bottom:49px}
+    .mc-how-head .mc-section-title {max-width:670px;margin-bottom:0}
+    .mc-how-head .mc-section-sub {max-width:315px;margin:0 0 5px;font-size:15px}
+    .mc-steps {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+    .mc-step {background:#f9faf5;border:1px solid #e5ebe3;border-radius:20px;padding:21px 21px 28px;min-height:380px}
+    .mc-step-art {height:188px;border-radius:13px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;margin-bottom:25px}
+    .mc-step:nth-child(1) .mc-step-art {background:#dff1e5}
+    .mc-step:nth-child(2) .mc-step-art {background:#f6ebd8}
+    .mc-step:nth-child(3) .mc-step-art {background:#e3e8f7}
+    .mc-step-num {font-size:10px;font-weight:800;color:var(--green);letter-spacing:.12em;margin:0 0 8px}
+    .mc-step h3 {font:600 23px/1.22 var(--serif);letter-spacing:-.02em;margin:0 0 12px}
+    .mc-step p {font-size:13px;line-height:1.75;color:#5b6e62;margin:0}
+    .mc-mini-sources {width:80%;display:flex;flex-direction:column;gap:8px;position:relative}
+    .mc-source-pill {padding:8px 11px;border-radius:8px;background:#fff;box-shadow:0 7px 16px rgba(25,63,40,.07);font-size:11px;font-weight:700;display:flex;gap:9px;align-items:center}
+    .mc-source-pill:nth-child(2) {transform:translateX(13px)}
+    .mc-source-pill:nth-child(3) {transform:translateX(24px)}
+    .mc-source-mark {width:22px;height:22px;border-radius:7px;background:#e6f4ed;display:grid;place-items:center;color:#177e55;font-size:12px}
+    .mc-mini-permission {width:82%;background:#fff;border-radius:15px;padding:20px;box-shadow:0 12px 28px rgba(80,60,20,.09)}
+    .mc-mini-permission strong {display:block;font-size:13px;line-height:1.5;margin-bottom:7px}
+    .mc-mini-permission p {font-size:10px;color:#6b746f;line-height:1.5;margin:0 0 15px}
+    .mc-mini-yes {background:#167d56;color:white;padding:8px 14px;font-size:10px;border-radius:7px;display:inline-block;font-weight:800}
+    .mc-mini-no {border:1px solid #d9e3da;color:#58675d;padding:7px 13px;font-size:10px;border-radius:7px;display:inline-block;margin-left:5px}
+    .mc-mini-campaign {width:78%;background:#fff;border-radius:15px;box-shadow:0 12px 28px rgba(28,47,96,.1);padding:15px;transform:rotate(-3deg)}
+    .mc-mini-campaign-top {height:52px;border-radius:8px;background:linear-gradient(120deg,#d5eedb,#85cda6);display:flex;align-items:center;padding-left:14px;color:#19553b;font:600 17px/1.1 var(--serif)}
+    .mc-mini-campaign p {margin:11px 0 0;font-size:10px;color:#576d62;line-height:1.5}
+    .mc-sent {position:absolute;bottom:16px;right:17px;font-size:10px;font-weight:800;color:#155b3d;background:#fff;padding:7px 9px;border-radius:30px;box-shadow:0 7px 15px rgba(22,50,45,.08)}
+
+    /* Owner: what you actually receive each month */
+    .mc-deliver {background:var(--ink);color:#fff;padding:100px 0;position:relative}
+    .mc-deliver:before {content:'';position:absolute;right:-160px;top:-190px;width:500px;height:500px;border:1px solid rgba(255,255,255,.1);border-radius:50%;pointer-events:none}
+    .mc-deliver-grid {display:grid;grid-template-columns:1.08fr .92fr;gap:80px;align-items:center;position:relative}
+    .mc-deliver .mc-eyebrow {color:#95e8ac}
+    .mc-deliver .mc-section-title {color:#fff;margin-bottom:25px}
+    .mc-deliver .mc-section-sub {color:#c4d7cc;margin-bottom:32px}
+    .mc-tick-list {list-style:none;padding:0;margin:0;display:grid;gap:17px}
+    .mc-tick-list li {display:flex;align-items:flex-start;gap:13px;font-size:14px;color:#e1eee7}
+    .mc-tick-list .mc-check {margin-top:2px;background:#2e624b;color:#b7f3c8}
+    .mc-month {background:#f9f8f0;border-radius:22px;color:var(--ink);padding:29px;box-shadow:0 26px 60px rgba(0,0,0,.13);transform:rotate(2deg)}
+    .mc-month-head {display:flex;align-items:center;justify-content:space-between;padding-bottom:20px;border-bottom:1px solid #e0e7db}
+    .mc-month-head strong {font:600 27px/1.1 var(--serif)}
+    .mc-month-badge {font-size:10px;color:#226943;font-weight:800;background:#ddf2e2;padding:6px 11px;border-radius:100px}
+    .mc-month-item {display:flex;align-items:center;gap:13px;padding:17px 0;border-bottom:1px solid #e8eae1}
+    .mc-month-item:last-child {border:0;padding-bottom:0}
+    .mc-month-icon {width:38px;height:38px;border-radius:10px;background:#e2efe5;display:grid;place-items:center;font-size:18px;flex:none}
+    .mc-month-item div:last-child {min-width:0}
+    .mc-month-item strong {display:block;font-size:13px;margin-bottom:2px}
+    .mc-month-item span {display:block;font-size:11px;color:#76867b}
+    .mc-deliver-caption {font-size:12px;color:#a6beaf;margin:21px 0 0}
+
+    /* Pricing: one service, two responsibilities */
+    .mc-offer {background:#fff;padding:106px 0 104px}
+    .mc-offer-head {display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:45px}
+    .mc-offer-head .mc-section-title {max-width:680px;margin-bottom:0}
+    .mc-offer-head p {max-width:290px;color:#667a70;font-size:14px;margin:0}
+    .mc-pricing {display:grid;grid-template-columns:1fr 1fr;border:1px solid #d9e8d9;border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}
+    .mc-plan {padding:40px 44px 42px;background:#fbfcf9}
+    .mc-plan + .mc-plan {background:#edf6ef;border-left:1px solid #d5e7d9}
+    .mc-plan-top {display:flex;align-items:center;gap:10px;margin-bottom:22px}
+    .mc-plan-top .mc-plan-label {font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--green);font-weight:800}
+    .mc-plan-top .mc-plan-period {font-size:10px;border-radius:30px;border:1px solid #b5d4bf;padding:3px 9px;color:#4e7e62}
+    .mc-plan-price {font:600 51px/1 var(--serif);letter-spacing:-.045em;margin-bottom:13px}
+    .mc-plan-price small {font:600 14px/1 var(--sans);color:#658170;letter-spacing:0}
+    .mc-plan h3 {font-size:16px;margin:0 0 10px}
+    .mc-plan-desc {font-size:13px;line-height:1.75;color:#617369;margin:0 0 22px;min-height:70px}
+    .mc-plan ul {list-style:none;padding:0;margin:0;display:grid;gap:11px}
+    .mc-plan li {font-size:13px;color:#35584a;display:flex;gap:10px;align-items:flex-start}
+    .mc-plan li:before {content:'✓';color:#09804d;font-weight:900;flex:none}
+    .mc-costnote {display:flex;align-items:flex-start;gap:14px;border-radius:12px;background:#f9f5e8;border:1px solid #eee6cf;padding:20px 22px;margin-top:20px}
+    .mc-costnote .mc-costsymbol {font-size:19px;color:#927a3b}
+    .mc-costnote p {font-size:12px;color:#6c6650;line-height:1.65;margin:0}
+    .mc-pricing-actions {display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:28px;flex-wrap:wrap}
+    .mc-pricing-actions .mc-textlink {font-size:13px;color:var(--green);font-weight:800;text-decoration:underline;text-underline-offset:4px}
+
+    /* Fit and FAQ */
+    .mc-fit {padding:70px 0;background:#f1f5ed}
+    .mc-fit-row {display:flex;align-items:center;gap:32px;flex-wrap:wrap}
+    .mc-fit-row h2 {font:600 25px/1.15 var(--serif);margin:0;flex:0 0 215px}
+    .mc-fit-pills {display:flex;gap:10px;flex-wrap:wrap;flex:1}
+    .mc-fit-pills span {padding:11px 15px;border:1px solid #cfded0;background:#fff;border-radius:9px;font-size:12px;font-weight:800;color:#3d6453}
+    .mc-faq {background:#fff;padding:95px 0}
+    .mc-faq-grid {display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:start}
+    .mc-faq-grid .mc-section-title {font-size:clamp(31px,3.5vw,45px)}
+    .mc-faq .mc-section-sub {font-size:14px}
+    .mc-faq details {border-bottom:1px solid #e2eae3}
+    .mc-faq details:first-child {border-top:1px solid #e2eae3}
+    .mc-faq summary {list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:22px 0;font-size:14px;font-weight:800;color:#294b3a}
+    .mc-faq summary::-webkit-details-marker {display:none}
+    .mc-faq summary:after {content:'+';font-size:24px;color:var(--green);font-weight:400;line-height:1}
+    .mc-faq details[open] summary:after {content:'−'}
+    .mc-faq details p {margin:0 0 23px;color:#607468;font-size:13px;line-height:1.75;max-width:600px}
+    .mc-faq details a {color:var(--green);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+
+    /* Closing */
+    .mc-close {background:#dff0e2;padding:95px 0 90px;text-align:center;position:relative;overflow:hidden}
+    .mc-close:before,.mc-close:after {content:'';position:absolute;border:1px solid #bdddc4;width:270px;height:270px;border-radius:50%;pointer-events:none}
+    .mc-close:before {top:-170px;left:-100px}.mc-close:after {bottom:-170px;right:-70px}
+    .mc-close .mc-section-title {max-width:780px;margin:18px auto 20px;font-size:clamp(38px,5vw,60px)}
+    .mc-close p {font-size:16px;color:#42604f;max-width:570px;margin:0 auto 28px}
+    .mc-close .mc-btn {min-width:186px}
+    .mc-footer {background:#153127;color:#bed3c5;padding:28px 0;font-size:12px}
+    .mc-footer-inner {display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap}
+    .mc-footer strong {font-size:16px;color:#fff;letter-spacing:-.04em}
+    .mc-footer nav {display:flex;gap:21px;flex-wrap:wrap}
+    .mc-footer a:hover {color:#fff;text-decoration:underline}
+    .mc-footer-note {margin:0;font-size:11px;color:#95b6a3}
+    @media (max-width:990px) {
+      .mc-hero-grid {grid-template-columns:1fr 1fr;gap:18px}.mc-hero h1 {font-size:clamp(43px,5.7vw,63px)}
+      .mc-visual {min-height:530px}.mc-phone {width:273px}.mc-screen {min-height:475px}.mc-chat-body {min-height:377px}
+      .mc-float-one {left:-8%}.mc-float-two {right:-9%}
+      .mc-how-head,.mc-offer-head {display:block}.mc-how-head .mc-section-sub,.mc-offer-head p {max-width:650px;margin-top:20px}
+      .mc-deliver-grid {gap:42px}
+    }
+    @media (max-width:760px) {
+      .mc-wrap {padding:0 22px}.mc-strip-inner {font-size:10px;gap:10px}.mc-strip a {white-space:nowrap}
+      .mc-hero {padding:65px 0 48px}.mc-hero-grid {grid-template-columns:1fr;gap:16px}.mc-hero h1 {font-size:clamp(46px,10vw,66px);margin-right:0}.mc-hero-lede {font-size:16px}
+      .mc-hero-proof {margin-top:32px;gap:13px}.mc-visual {min-height:560px;margin:0 0 0 0}.mc-orb {inset:30px 5% 32px}
+      .mc-phone {width:294px;max-width:76%}.mc-screen {min-height:490px}.mc-chat-body {min-height:392px}
+      .mc-float-one {left:2%;top:12%}.mc-float-two {right:0;bottom:12%}.mc-visual-note {bottom:2px;right:24%}
+      .mc-proof {padding:46px 0}.mc-proof-card {grid-template-columns:1fr;gap:20px}.mc-proof-aside {border-right:0;border-bottom:1px solid #d1e3d5;padding:0 0 19px}.mc-proof-aside .mc-proof-sticker {margin:12px 0 4px;font-size:28px}
+      .mc-proof-quote {padding-left:15px}.mc-proof blockquote p {font-size:20px}
+      .mc-how,.mc-offer,.mc-faq {padding:75px 0}.mc-how-head {margin-bottom:32px}.mc-steps {grid-template-columns:1fr;gap:14px}.mc-step {min-height:unset}.mc-step-art {height:170px}.mc-step h3 {font-size:24px}
+      .mc-deliver {padding:78px 0}.mc-deliver-grid {grid-template-columns:1fr;gap:40px}.mc-month {transform:none}
+      .mc-pricing {grid-template-columns:1fr}.mc-plan {padding:31px 27px}.mc-plan+.mc-plan {border-left:0;border-top:1px solid #d5e7d9}.mc-plan-desc {min-height:unset}.mc-plan-price {font-size:46px}
+      .mc-fit {padding:54px 0}.mc-fit-row {gap:20px}.mc-fit-row h2 {flex:auto}.mc-faq-grid {grid-template-columns:1fr;gap:28px}
+      .mc-close {padding:75px 0}.mc-close .mc-section-title {font-size:44px}.mc-footer-inner {align-items:flex-start;flex-direction:column;gap:15px}
+    }
+    @media (max-width:420px) {
+      .mc-strip-inner {min-height:50px}.mc-strip-inner span {max-width:190px;line-height:1.4}.mc-hero h1 {font-size:43px}
+      .mc-hero-actions {align-items:stretch}.mc-hero-actions .mc-btn {width:100%}.mc-hero-proof {display:grid;grid-template-columns:1fr 1fr;gap:12px}
+      .mc-visual {min-height:515px}.mc-phone {width:248px;border-width:7px;padding:8px;border-radius:33px}.mc-screen {min-height:451px}.mc-chat-body {min-height:353px;padding:12px 10px;gap:8px}.mc-bubble {font-size:10px}.mc-float {padding:9px 10px;max-width:130px}.mc-float-one {top:10%;left:-2%}.mc-float-two {bottom:8%;right:-3%}.mc-float-title {font-size:11px}.mc-float-caption {font-size:9px}.mc-visual-note {display:none}
+      .mc-pricing-actions {align-items:stretch}.mc-pricing-actions .mc-btn {width:100%}.mc-close .mc-section-title {font-size:38px}
+    }
+    @media (prefers-reduced-motion: reduce) {html {scroll-behavior:auto} .mc-btn {transition:none}}
+  </style>
+</head>
+<body>
+<main class="mc-page">
+  <div class="mc-strip">
+    <div class="mc-wrap mc-strip-inner">
+      <span><strong>MzansiChat</strong> &nbsp;·&nbsp; Johannesburg-based WhatsApp growth, done for you</span>
+      <a href="https://www.mzansichat.co.za/growth-setup" target="_top">Explore the service <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+
+  <section class="mc-hero" aria-labelledby="mc-hero-title">
+    <div class="mc-wrap mc-hero-grid">
+      <div class="mc-hero-copy">
+        <span class="mc-eyebrow">WhatsApp Growth · Done for You</span>
+        <h1 id="mc-hero-title">You run the business.<br><em>We run the WhatsApp marketing.</em></h1>
+        <p class="mc-hero-lede">Turn everyday enquiries into lasting customer connections. We set up your WhatsApp growth system, build a permission-based audience, then create and manage campaigns every month. <strong>You look after your customers. We handle the rest.</strong></p>
+        <div class="mc-hero-actions">
+          <a class="mc-btn mc-btn-primary" href="https://wa.me/27793907386?text=Hi%20MzansiChat%20%E2%80%94%20I%27d%20like%20to%20learn%20more%20about%20WhatsApp%20Growth." target="_blank" rel="noopener">
+            <svg class="mc-wa" viewBox="0 0 32 32" aria-hidden="true" fill="currentColor"><path d="M16 .8A15.2 15.2 0 0 0 3 23.9L.8 31.2l7.5-2.1A15.2 15.2 0 1 0 16 .8Zm0 27.6a12.3 12.3 0 0 1-6.3-1.7l-.5-.3-4.4 1.2L6 23.4l-.3-.5A12.3 12.3 0 1 1 16 28.4Zm6.8-9.2c-.4-.2-2.3-1.1-2.7-1.2s-.6-.2-.8.2-1 1.2-1.2 1.5-.4.3-.8.1a10.1 10.1 0 0 1-5-4.4c-.4-.7.4-.7 1.1-1.9.1-.2 0-.5-.1-.7l-1.2-2.9c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5s-1.3 1.3-1.3 3.2 1.4 3.8.2.4 2.7 4.4c1.1 1 2.5 1.7 4 2.3 1.7.8 3.2.9 4.4.8 1.3-.2 2.3-1.1 2.7-2.1s.3-1.8.2-2.1-.3-.3-.7-.5Z"/></svg>
+            WhatsApp us <span class="mc-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="mc-btn mc-btn-outline" href="#mc-how">See how it works <span class="mc-arrow" aria-hidden="true">↓</span></a>
+        </div>
+        <p class="mc-mininote"><b>R5,950</b> once-off setup &nbsp;·&nbsp; <b>R3,495/month</b> managed service &nbsp;·&nbsp; WhatChimp included</p>
+        <div class="mc-hero-proof" aria-label="How the service operates">
+          <span><i class="mc-check" aria-hidden="true">✓</i> Built for your business</span>
+          <span><i class="mc-check" aria-hidden="true">✓</i> Permission-first</span>
+          <span><i class="mc-check" aria-hidden="true">✓</i> Campaigns managed for you</span>
+        </div>
+      </div>
+      <div class="mc-visual" aria-label="Illustrative WhatsApp customer conversation showing permission to receive future offers">
+        <div class="mc-orb" aria-hidden="true"></div>
+        <div class="mc-float mc-float-one" aria-hidden="true">
+          <span class="mc-float-kicker">Customer journey</span>
+          <div class="mc-float-title">New enquiry received</div>
+          <span class="mc-float-caption">From a website, Google or social link</span>
+        </div>
+        <div class="mc-phone">
+          <div class="mc-screen">
+            <div class="mc-chat-head"><div class="mc-chat-avatar">B</div><div><strong>Your business</strong><small>WhatsApp conversation</small></div><span class="mc-chat-dots" aria-hidden="true">⋮</span></div>
+            <div class="mc-chat-body">
+              <div class="mc-bubble user">Hi! I'd like to find out about your treatments.<small>10:24 ✓✓</small></div>
+              <div class="mc-bubble business">Hello! Thanks for getting in touch 😊 Our team can help with that.<small>10:24</small></div>
+              <div class="mc-bubble business">Would you also like to receive occasional updates and offers from us on WhatsApp?
+                <div class="mc-answer" aria-label="Illustrative opt-in choices"><span>Yes please</span><span>No thanks</span></div>
+                <small>10:25</small>
+              </div>
+              <div class="mc-bubble user">Yes please!<small>10:25 ✓✓</small></div>
+              <div class="mc-bubble business">Wonderful, thank you! Our team will help with your enquiry.<small>10:25</small></div>
+            </div>
+            <div class="mc-chat-input"><span>Message</span><div class="mc-chat-send" aria-hidden="true">➤</div></div>
+          </div>
+        </div>
+        <div class="mc-float mc-float-two" aria-hidden="true">
+          <span class="mc-float-kicker">Behind the scenes</span>
+          <div class="mc-float-title">Permission recorded</div>
+          <span class="mc-float-caption">Opted-in audience grows; your team handles the enquiry</span>
+        </div>
+        <span class="mc-visual-note">Illustrative journey · Not an actual customer transcript</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="mc-proof" aria-labelledby="mc-proof-title">
+    <div class="mc-wrap mc-proof-card">
+      <div class="mc-proof-aside">
+        <span class="mc-eyebrow">Real client · Johannesburg</span>
+        <h2 id="mc-proof-title" class="mc-proof-sticker">Kind words.<br>Real experience.</h2>
+        <p>Quick Cuts salon &amp; barbershop</p>
+      </div>
+      <div class="mc-proof-quote">
+        <blockquote>
+          <p>“Working with Stephen and MzansiChat has been a fantastic experience.”</p>
+          <p>“What impressed me most was the initiative, creativity and attention to detail he brought to our business.”</p>
+          <footer>Andi Hayward <span>· Quick Cuts, Johannesburg</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="mc-how" id="mc-how" aria-labelledby="mc-how-title">
+    <div class="mc-wrap">
+      <div class="mc-how-head">
+        <div>
+          <span class="mc-eyebrow">The difference</span>
+          <h2 id="mc-how-title" class="mc-section-title">Not another WhatsApp number.<br>A customer-growth programme someone actually runs.</h2>
+        </div>
+        <p class="mc-section-sub">We connect the dots between being discovered, earning permission and giving people a reason to return.</p>
+      </div>
+      <div class="mc-steps">
+        <article class="mc-step">
+          <div class="mc-step-art" aria-hidden="true">
+            <div class="mc-mini-sources">
+              <div class="mc-source-pill"><span class="mc-source-mark">G</span> Found you on Google <span style="margin-left:auto;color:#168653">↗</span></div>
+              <div class="mc-source-pill"><span class="mc-source-mark">◎</span> Saw you on Instagram <span style="margin-left:auto;color:#168653">↗</span></div>
+              <div class="mc-source-pill"><span class="mc-source-mark">↗</span> Visited your website <span style="margin-left:auto;color:#168653">↗</span></div>
+            </div>
+          </div>
+          <div class="mc-step-num">01 · GET CONNECTED</div>
+          <h3>Turn interest into a conversation.</h3>
+          <p>Make it easy to message your business from the places customers already find you—Google, your website, Facebook, Instagram and agreed QR placements.</p>
+        </article>
+        <article class="mc-step">
+          <div class="mc-step-art" aria-hidden="true">
+            <div class="mc-mini-permission">
+              <strong>Would you like our occasional offers?</strong>
+              <p>Only people who say yes join your WhatsApp marketing audience. Unsubscribes are respected.</p>
+              <span class="mc-mini-yes">Yes, keep me updated</span><span class="mc-mini-no">Not now</span>
+            </div>
+          </div>
+          <div class="mc-step-num">02 · GROW THE RIGHT AUDIENCE</div>
+          <h3>Build relationships with permission.</h3>
+          <p>We set up opt-ins, track where enquiries came from, tidy suitable contact data and make opting out straightforward. Existing contact lists aren't treated as automatic consent.</p>
+        </article>
+        <article class="mc-step">
+          <div class="mc-step-art" aria-hidden="true">
+            <div class="mc-mini-campaign">
+              <div class="mc-mini-campaign-top">A little reason<br>to come back.</div>
+              <p>Relevant messages, thoughtful offers and approved creative for the people who want to hear from you.</p>
+            </div>
+            <span class="mc-sent">✓ Managed by MzansiChat</span>
+          </div>
+          <div class="mc-step-num">03 · KEEP THE CONNECTION ALIVE</div>
+          <h3>Stay in touch, without the workload.</h3>
+          <p>We plan, create and send up to two agreed WhatsApp marketing campaigns each month. Your team handles the replies, bookings and customer relationships.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="mc-deliver" aria-labelledby="mc-deliver-title">
+    <div class="mc-wrap mc-deliver-grid">
+      <div>
+        <span class="mc-eyebrow">The part most platforms leave to you</span>
+        <h2 class="mc-section-title" id="mc-deliver-title">You shouldn't need to become a marketer to make WhatsApp marketing happen.</h2>
+        <p class="mc-section-sub">A subscription to marketing software doesn't write your campaigns, create your content, or follow up on what happened. That's the work we take on.</p>
+        <ul class="mc-tick-list">
+          <li><span class="mc-check" aria-hidden="true">✓</span><span><strong>Campaign ideas and copy</strong> designed around your business, customers and offers.</span></li>
+          <li><span class="mc-check" aria-hidden="true">✓</span><span><strong>Standard branded campaign graphics</strong>, audience preparation and message scheduling.</span></li>
+          <li><span class="mc-check" aria-hidden="true">✓</span><span><strong>Your approval before anything goes out</strong>, including estimated Meta message charges.</span></li>
+          <li><span class="mc-check" aria-hidden="true">✓</span><span><strong>Audience upkeep and a monthly review</strong> so we can learn and improve together.</span></li>
+        </ul>
+        <p class="mc-deliver-caption">No automatic appointment booking. Customer enquiries remain with your staff.</p>
+      </div>
+      <div>
+        <div class="mc-month" aria-label="Illustrative monthly MzansiChat service plan">
+          <div class="mc-month-head"><strong>A month with MzansiChat</strong><span class="mc-month-badge">Done for you</span></div>
+          <div class="mc-month-item"><span class="mc-month-icon" aria-hidden="true">✳</span><div><strong>Agree this month's focus</strong><span>Offers, audiences and priorities</span></div></div>
+          <div class="mc-month-item"><span class="mc-month-icon" aria-hidden="true">✎</span><div><strong>We create your campaigns</strong><span>Copy, standard visuals and templates</span></div></div>
+          <div class="mc-month-item"><span class="mc-month-icon" aria-hidden="true">✓</span><div><strong>You approve. We send.</strong><span>Up to two campaign sends per month</span></div></div>
+          <div class="mc-month-item"><span class="mc-month-icon" aria-hidden="true">↗</span><div><strong>We review and improve</strong><span>One monthly report and next steps</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mc-offer" id="mc-pricing" aria-labelledby="mc-offer-title">
+    <div class="mc-wrap">
+      <div class="mc-offer-head">
+        <div><span class="mc-eyebrow">Clear pricing · No mystery platform add-on</span><h2 id="mc-offer-title" class="mc-section-title">One service. Built properly. Managed every month.</h2></div>
+        <p>Two connected parts of one practical service—not software you have to learn, and not a campaign you have to run yourself.</p>
+      </div>
+      <div class="mc-pricing">
+        <article class="mc-plan">
+          <div class="mc-plan-top"><span class="mc-plan-label">Build &amp; Launch</span><span class="mc-plan-period">Once-off</span></div>
+          <div class="mc-plan-price">R5,950 <small>once-off</small></div>
+          <h3>We put the right foundation in place.</h3>
+          <p class="mc-plan-desc">Your official WhatsApp growth setup, source-linked customer journeys and consent handling—planned, configured and tested.</p>
+          <ul>
+            <li>Official WhatsApp Business Platform setup via WhatChimp</li>
+            <li>Up to five agreed channel or QR entry-point placements</li>
+            <li>Opt-in, STOP suppression and source tracking</li>
+            <li>Cleaning up to 1,500 supplied customer records</li>
+            <li>Up to two initial marketing templates submitted for Meta approval</li>
+            <li>Google review journey, QA and staff handover</li>
+          </ul>
+        </article>
+        <article class="mc-plan">
+          <div class="mc-plan-top"><span class="mc-plan-label">Manage &amp; Grow</span><span class="mc-plan-period">Monthly</span></div>
+          <div class="mc-plan-price">R3,495 <small>/ month</small></div>
+          <h3>We keep the marketing moving.</h3>
+          <p class="mc-plan-desc">Real, ongoing campaign management—including the platform—without leaving your team with another marketing job.</p>
+          <ul>
+            <li><strong>One agreed WhatChimp subscription included</strong></li>
+            <li>Up to two managed WhatsApp marketing campaign sends each month</li>
+            <li>Campaign ideas, copy and standard branded creative</li>
+            <li>Audience preparation, approvals, scheduling and sending</li>
+            <li>Opt-in audience upkeep, support and routine maintenance</li>
+            <li>Monthly reporting and practical recommendations</li>
+          </ul>
+        </article>
+      </div>
+      <div class="mc-costnote" role="note">
+        <span class="mc-costsymbol" aria-hidden="true">ⓘ</span>
+        <p><strong>Good to know:</strong> Meta's WhatsApp marketing-message charges are additional, passed on at cost and approved by you before sending. Paid ads, advanced creative, extra campaigns and unusual custom work are separately quoted. MzansiChat does not charge VAT. No sales or booking results are guaranteed.</p>
+      </div>
+      <div class="mc-pricing-actions">
+        <a class="mc-btn mc-btn-primary" href="https://wa.me/27793907386?text=Hi%20MzansiChat%20%E2%80%94%20I%27d%20like%20to%20learn%20more%20about%20WhatsApp%20Growth." target="_blank" rel="noopener">WhatsApp us <span class="mc-arrow" aria-hidden="true">↗</span></a>
+        <a class="mc-textlink" href="https://www.mzansichat.co.za/growth-setup" target="_top">See everything included and how it works <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mc-fit" aria-labelledby="mc-fit-title">
+    <div class="mc-wrap mc-fit-row">
+      <h2 id="mc-fit-title">Made for businesses with customers worth keeping.</h2>
+      <div class="mc-fit-pills" aria-label="Examples of suitable businesses"><span>Hair &amp; beauty</span><span>Salons &amp; barbershops</span><span>Pet care &amp; grooming</span><span>Wellness &amp; appointments</span><span>Other repeat-visit local businesses</span></div>
+    </div>
+  </section>
+
+  <section class="mc-faq" aria-labelledby="mc-faq-title">
+    <div class="mc-wrap mc-faq-grid">
+      <div><span class="mc-eyebrow">Useful answers, upfront</span><h2 id="mc-faq-title" class="mc-section-title">A few things worth knowing.</h2><p class="mc-section-sub">The important details, without pages of marketing jargon. You'll find the complete scope on our <a href="https://www.mzansichat.co.za/growth-setup" target="_top" style="text-decoration:underline;color:#117a54">Growth Setup page</a>.</p></div>
+      <div>
+        <details><summary>Do we need a new WhatsApp number?</summary><p>We'll confirm the best arrangement for your business during setup. A dedicated marketing number may be appropriate, particularly if you want to protect an existing booking or customer-service line.</p></details>
+        <details><summary>Can you message our existing customer list?</summary><p>We can help clean and prepare your existing data, but having a phone number is not the same as having marketing permission. We only send marketing messages where the appropriate consent and messaging requirements are met.</p></details>
+        <details><summary>Who creates the campaigns and handles replies?</summary><p>MzansiChat plans and produces the agreed campaigns, then manages their approved sends. Your team remains responsible for enquiries, customer conversations and confirming bookings.</p></details>
+        <details><summary>Are there any extra charges?</summary><p>One agreed WhatChimp subscription is included in the monthly fee. Meta's marketing-message charges are separate and approved in advance. Optional ads, advanced creative, extra campaigns and custom development are separately quoted.</p></details>
+        <details><summary>What about support and cancellation?</summary><p>Routine support and system upkeep are included in the managed service. Any agreed term, cancellation arrangements and account handover are explained in writing before you commit.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="mc-close" aria-labelledby="mc-close-title">
+    <div class="mc-wrap">
+      <span class="mc-eyebrow">Let's make WhatsApp work for your business</span>
+      <h2 id="mc-close-title" class="mc-section-title">More connection.<br>Less on your to-do list.</h2>
+      <p>Tell us about your business. We'll discuss whether a managed WhatsApp growth programme makes sense for you—and what happens next.</p>
+      <a class="mc-btn mc-btn-primary" href="https://wa.me/27793907386?text=Hi%20MzansiChat%20%E2%80%94%20I%27d%20like%20to%20learn%20more%20about%20WhatsApp%20Growth." target="_blank" rel="noopener">
+        <svg class="mc-wa" viewBox="0 0 32 32" aria-hidden="true" fill="currentColor"><path d="M16 .8A15.2 15.2 0 0 0 3 23.9L.8 31.2l7.5-2.1A15.2 15.2 0 1 0 16 .8Zm0 27.6a12.3 12.3 0 0 1-6.3-1.7l-.5-.3-4.4 1.2L6 23.4l-.3-.5A12.3 12.3 0 1 1 16 28.4Zm6.8-9.2c-.4-.2-2.3-1.1-2.7-1.2s-.6-.2-.8.2-1 1.2-1.2 1.5-.4.3-.8.1a10.1 10.1 0 0 1-5-4.4c-.4-.7.4-.7 1.1-1.9.1-.2 0-.5-.1-.7l-1.2-2.9c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5s-1.3 1.3-1.3 3.2 1.4 3.8.2.4 2.7 4.4c1.1 1 2.5 1.7 4 2.3 1.7.8 3.2.9 4.4.8 1.3-.2 2.3-1.1 2.7-2.1s.3-1.8.2-2.1-.3-.3-.7-.5Z"/></svg>
+        WhatsApp us <span class="mc-arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="mc-footer">
+    <div class="mc-wrap mc-footer-inner">
+      <strong>MzansiChat<span style="color:#71d6a4">.</span></strong>
+      <p class="mc-footer-note">Done-for-you WhatsApp customer growth · Johannesburg, Gauteng · © 2026 MzansiChat</p>
+      <nav aria-label="Useful links"><a href="https://www.mzansichat.co.za/growth-setup" target="_top">Full service details</a><a href="https://www.mzansichat.co.za/privacy-policy" target="_top">Privacy</a><a href="https://www.mzansichat.co.za/terms-of-service" target="_top">Terms</a></nav>
+    </div>
+  </footer>
+</main>
+</body>
+</html>
