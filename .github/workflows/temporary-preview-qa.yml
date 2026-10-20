@@ -1,5 +1,6 @@
 name: Temporary MzansiChat six-page preview QA
 on:
+  pull_request:
   push:
     branches:
       - feat/social-preview-navigation-seo-20261020
