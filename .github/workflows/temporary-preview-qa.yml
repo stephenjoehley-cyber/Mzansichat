@@ -1,9 +1,0 @@
-name: Temporary MzansiChat runner check
-on:
-  pull_request:
-    types: [synchronize, opened, reopened]
-jobs:
-  smoke:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Browser QA runner available"
