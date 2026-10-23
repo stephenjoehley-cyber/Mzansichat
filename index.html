@@ -258,29 +258,27 @@
     .mc-footer nav a[aria-current="page"]{color:#fff;font-weight:800;text-decoration:underline;text-underline-offset:5px}
     @media(max-width:760px){.mc-footer-inner{align-items:flex-start;flex-direction:column;gap:17px}.mc-footer nav{gap:11px 17px}}
 .mc-nav-unified{background:#fff;border-bottom:1px solid #e0e7e0;position:relative;z-index:5}.mc-nav-unified .mc-wrap{display:flex;justify-content:space-between;align-items:center;gap:18px;min-height:74px}.mc-nav-brand{font-weight:800;font-size:24px;color:#19312b;text-decoration:none;white-space:nowrap}.mc-nav-brand span{color:#117a54}.mc-nav-links{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:clamp(10px,2.1vw,28px)}.mc-nav-links a{font-size:13px;font-weight:700;color:#40584f;text-decoration:none;white-space:nowrap}.mc-nav-links a:hover,.mc-nav-links a[aria-current="page"]{color:#117a54;text-decoration:underline;text-underline-offset:6px}.mc-footer-contact{margin-top:7px;font-size:14px;color:#c9f4dc}.mc-footer-contact a{color:inherit;text-decoration:underline;text-underline-offset:3px}.mc-floating-wa{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:1000;display:flex;align-items:center;justify-content:center;gap:9px;background:#117a54;color:white!important;text-decoration:none!important;border:2px solid #fff;border-radius:999px;padding:13px 18px;box-shadow:0 5px 22px #19312b55;font:700 14px/1.25 'DM Sans',sans-serif}.mc-floating-wa svg{width:25px;height:25px;fill:currentColor;flex:none}.mc-floating-wa:hover{background:#0c6042}.mc-floating-wa:focus-visible{outline:3px solid #e6a914;outline-offset:4px}@media(max-width:680px){.mc-nav-unified .mc-wrap{padding:12px 16px;flex-direction:column;gap:10px;min-height:auto}.mc-nav-brand{font-size:21px}.mc-nav-links{width:100%;justify-content:center;gap:10px 16px}.mc-nav-links a{font-size:12px}.mc-floating-wa{right:12px;bottom:calc(12px + env(safe-area-inset-bottom));padding:12px;min-width:49px;min-height:49px}.mc-floating-wa .mc-wa-label{display:none}}
-/* Quick Cuts visual teaser: legible editorial gallery, no image overlap */
+/* Quick Cuts visual teaser — show the original 1080×1350 posters at a useful size.
+   No transforms, zooming, artificial sharpening or recompression of campaign artwork. */
 .qcx-teaser{padding:30px 0;background:#edf6ef}
-.qcx-teaser-card{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);align-items:center;gap:clamp(18px,3vw,35px);min-height:355px;padding:clamp(24px,3.2vw,40px);border:1px solid #e6d5a9;border-radius:25px;background:radial-gradient(circle at 89% 25%,#ffefbf 0%,transparent 39%),linear-gradient(125deg,#fffaf0,#f8f0db);box-shadow:0 15px 40px rgba(25,49,43,.08);color:#19312b;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;overflow:hidden}
+.qcx-teaser-card{display:grid;gap:21px;padding:clamp(23px,3vw,35px);border:1px solid #e6d5a9;border-radius:25px;background:radial-gradient(circle at 86% 24%,#fff0c4 0%,transparent 42%),linear-gradient(125deg,#fffaf0,#f8f0db);box-shadow:0 15px 40px rgba(25,49,43,.08);color:#19312b;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
 .qcx-teaser-card:hover{transform:translateY(-4px);box-shadow:0 22px 50px rgba(25,49,43,.15);border-color:#d6b657}
 .qcx-teaser-card:focus-visible{outline:3px solid #d6a525;outline-offset:4px}
 .qcx-teaser .mc-eyebrow{color:#8a6621}
 .qcx-teaser .mc-eyebrow:before{background:#d6a525;box-shadow:0 0 0 4px rgba(214,165,37,.14)}
-.qcx-teaser-copy{min-width:0;position:relative;z-index:2}
-.qcx-teaser h3{font:600 clamp(27px,3.05vw,39px)/1.13 var(--serif);letter-spacing:-.035em;max-width:550px;margin:15px 0}
-.qcx-teaser p{max-width:540px;color:#40584f;font:500 clamp(15px,1.65vw,18px)/1.55 var(--sans);margin:0 0 24px}
-.qcx-teaser-cta{display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:12px 19px;border:1px solid #117a54;border-radius:10px;background:#117a54;color:#fff;font:800 14px/1.4 var(--sans);transition:background .2s ease}
+.qcx-teaser-copy{display:flex;justify-content:space-between;align-items:end;gap:24px}
+.qcx-teaser-words{min-width:0}
+.qcx-teaser h3{font:600 clamp(27px,3vw,39px)/1.13 var(--serif);letter-spacing:-.035em;max-width:800px;margin:12px 0}
+.qcx-teaser p{color:#40584f;font:500 clamp(15px,1.65vw,18px)/1.55 var(--sans);margin:0}
+.qcx-teaser-cta{display:inline-flex;align-items:center;justify-content:center;gap:12px;flex:none;min-height:48px;padding:12px 19px;border:1px solid #117a54;border-radius:10px;background:#117a54;color:#fff;font:800 14px/1.4 var(--sans);transition:background .2s ease}
 .qcx-teaser-card:hover .qcx-teaser-cta{background:#0d6646}
-.qcx-teaser-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:clamp(8px,1.1vw,14px);width:100%;min-width:0;padding:27px 6px;position:relative;isolation:isolate}
-.qcx-teaser-gallery:before{content:'';position:absolute;inset:7% 0%;border-radius:50%;background:radial-gradient(ellipse,#efd183 0%,#f7e8b5 45%,transparent 73%);z-index:-1}
-.qcx-teaser-image{display:block;width:100%;min-width:0;height:auto;aspect-ratio:4/5;object-fit:contain;background:#fff;border:4px solid #fff;border-radius:12px;box-shadow:0 14px 26px rgba(39,37,24,.22);transition:transform .2s ease}
-.qcx-teaser-image-one{transform:translateY(9px) rotate(-2.5deg);z-index:1}
-.qcx-teaser-image-two{transform:translateY(-9px) scale(1.045);z-index:3}
-.qcx-teaser-image-three{transform:translateY(9px) rotate(2.5deg);z-index:2}
-@media(max-width:850px){.qcx-teaser-card{grid-template-columns:minmax(0,1fr);gap:8px;padding:clamp(24px,5vw,32px)}.qcx-teaser-gallery{max-width:580px;margin:0 auto;padding:27px 7px 13px}.qcx-teaser h3{max-width:680px}}
-@media(max-width:520px){.qcx-teaser{padding:22px 0}.qcx-teaser-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:365px;padding:20px 3px 9px}.qcx-teaser-image{border-width:3px}.qcx-teaser-image-one{grid-column:1;grid-row:2;transform:rotate(-2deg)}.qcx-teaser-image-two{grid-column:1/-1;grid-row:1;width:min(64%,220px);justify-self:center;transform:rotate(0deg);z-index:3}.qcx-teaser-image-three{grid-column:2;grid-row:2;transform:rotate(2deg)}}
-@media(max-width:390px){.qcx-teaser-card{padding:19px}.qcx-teaser-cta{width:100%;justify-content:center}.qcx-teaser-gallery{gap:10px}}
-@media(prefers-reduced-motion:reduce){.qcx-teaser-card,.qcx-teaser-image,.qcx-teaser-cta{transition:none}}
-
+.qcx-teaser-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:clamp(14px,2vw,23px);width:min(100%,950px);margin:0 auto;min-width:0}
+.qcx-teaser-image{display:block;width:100%;min-width:0;height:auto;aspect-ratio:4/5;object-fit:contain;background:#fff;border:5px solid #fff;border-radius:12px;box-shadow:0 14px 26px rgba(39,37,24,.16)}
+.qcx-teaser-image-one,.qcx-teaser-image-two,.qcx-teaser-image-three{transform:none}
+.qcx-teaser-gallery-hint{display:none;font-size:12px;color:#8a6621;font-weight:700}
+@media(max-width:760px){.qcx-teaser{padding:22px 0}.qcx-teaser-copy{align-items:flex-start;flex-direction:column;gap:18px}.qcx-teaser-gallery{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;scrollbar-width:thin;padding:7px 2px 14px}.qcx-teaser-image{width:min(75vw,280px);flex:none;scroll-snap-align:center}.qcx-teaser-gallery-hint{display:block}}
+@media(max-width:390px){.qcx-teaser-card{padding:19px}.qcx-teaser-cta{width:100%}.qcx-teaser-image{width:min(76vw,270px)}}
+@media(prefers-reduced-motion:reduce){.qcx-teaser-card,.qcx-teaser-cta{transition:none}}
 </style>
 <link rel="canonical" href="https://www.mzansichat.co.za/"><meta property="og:type" content="website"><meta property="og:title" content="MzansiChat | Done-for-you WhatsApp Marketing for Gauteng Businesses"><meta property="og:description" content="Grow repeat business with done-for-you WhatsApp marketing in Johannesburg and Gauteng. MzansiChat builds your system and manages customer campaigns."><meta property="og:image" content="https://www.mzansichat.co.za/mzansichat-share-1200x630.png"><meta property="og:url" content="https://www.mzansichat.co.za/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://www.mzansichat.co.za/mzansichat-share-1200x630.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"MzansiChat","address":{"@type":"PostalAddress","addressLocality":"Johannesburg","addressRegion":"Gauteng","addressCountry":"ZA"},"telephone":"+27663303413","url":"https://www.mzansichat.co.za"}</script><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2216%22%20fill%3D%22%23117a54%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2244%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2242%22%20font-weight%3D%22bold%22%20fill%3D%22%23fff%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E">
 </head>
@@ -359,9 +357,11 @@
 <div class="mc-wrap">
 <a class="qcx-teaser-card" href="/growth-setup#example-month" aria-labelledby="qcx-teaser-title">
 <div class="qcx-teaser-copy">
+<div class="qcx-teaser-words">
 <span class="mc-eyebrow">Real work · Quick Cuts</span>
 <h3 id="qcx-teaser-title">See a month of posts we create for clients</h3>
 <p>12 posts, every one leading to WhatsApp, and every chat tracked.</p>
+</div>
 <span class="qcx-teaser-cta">See the example month <span aria-hidden="true">↗</span></span>
 </div>
 <div class="qcx-teaser-gallery" aria-label="Three original Quick Cuts Style Edit campaign designs">
@@ -369,6 +369,7 @@
 <img class="qcx-teaser-image qcx-teaser-image-two" src="/public/images/quick-cuts/QC_SE_P04_PORTRAIT_1080x1350.webp" alt="Quick Cuts Style Edit: meet Andi, your style guide" width="1080" height="1350" loading="lazy" decoding="async">
 <img class="qcx-teaser-image qcx-teaser-image-three" src="/public/images/quick-cuts/QC_SE_P07_PORTRAIT_1080x1350.webp" alt="Quick Cuts Style Edit: an illustrated colour wheel made simple" width="1080" height="1350" loading="lazy" decoding="async">
 </div>
+<span class="qcx-teaser-gallery-hint">Swipe to see all three designs</span>
 </a>
 </div>
 </section>
