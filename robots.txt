@@ -1,0 +1,24 @@
+# MzansiChat public pages. Cloudflare may prepend separately managed Content Signals / bot directives.
+# Preserve existing Cloudflare policies; this file does not override WAF or AI Crawl Control settings.
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.mzansichat.co.za/sitemap.xml
