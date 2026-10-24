@@ -440,7 +440,7 @@
 })();
 </script>
 <script>
-/* Only page path and the CTA location are recorded. Never send prefilled WhatsApp messages, phone numbers or customer details to GA4. */
+/* Custom event fields include only page path and CTA location; GA4 may also collect standard page/technical metadata. Do not send prefilled WhatsApp messages or customer details as custom parameters. */
 document.addEventListener('click',function(event){
   var origin=event.target;
   if(!origin||typeof origin.closest!=='function')return;
