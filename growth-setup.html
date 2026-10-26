@@ -151,6 +151,19 @@
 .qcx-alias-anchor{display:block;width:0;height:0;scroll-margin-top:25px}
 
 .gs-seo-answer{font-size:15px;line-height:1.6;color:#40584f;max-width:650px;margin:-6px 0 15px}.gs-api-keyline{font:700 16px/1.4 var(--sans);color:#117a54;margin:0 0 14px}
+
+/* Compact in-page section navigation. overflow:clip allows sticky positioning in mc-page. */
+.mc-page{overflow:clip}
+.gs-jump-nav{position:sticky;top:0;z-index:35;background:rgba(251,250,245,.97);border-bottom:1px solid var(--line);box-shadow:0 3px 12px rgba(22,56,44,.035)}
+.gs-jump-inner{display:flex;align-items:center;gap:24px;min-height:54px}
+.gs-jump-label{white-space:nowrap;font-size:10px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--muted)}
+.gs-jump-links{display:flex;gap:8px;align-items:center;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;min-width:0}
+.gs-jump-links::-webkit-scrollbar{display:none}
+.gs-jump-links a{display:inline-flex;align-items:center;white-space:nowrap;padding:7px 11px;border-radius:20px;font-size:12px;font-weight:700;line-height:1.4;color:var(--ink-soft);transition:background-color .15s,color .15s}
+.gs-jump-links a:hover,.gs-jump-links a:focus-visible{background:var(--mint);color:var(--green)}
+#approach,#campaign-planning,#example-month,#pricing,#faq{scroll-margin-top:70px}
+@media(max-width:760px){.gs-jump-inner{gap:12px;padding-right:0;min-height:49px}.gs-jump-label{font-size:9px}.gs-jump-links{flex:1;padding-right:20px}.gs-jump-links a{font-size:11px;padding:7px 9px}#approach,#campaign-planning,#example-month,#pricing,#faq{scroll-margin-top:64px}}
+@media(max-width:430px){.gs-jump-inner{gap:8px}.gs-jump-label{max-width:62px;white-space:normal;line-height:1.25;letter-spacing:.06em}}
 </style>
 <link rel="canonical" href="https://www.mzansichat.co.za/growth-setup"><meta property="og:type" content="website"><meta property="og:title" content="WhatsApp Business API Setup &amp; Monthly Management | MzansiChat"><meta property="og:description" content="We set up the official WhatsApp Business API, tracked links and an opted-in list, then create your posts and approved campaigns every month. See a real example month."><meta property="og:image" content="https://www.mzansichat.co.za/mzansichat-share-1200x630.png"><meta property="og:url" content="https://www.mzansichat.co.za/growth-setup"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://www.mzansichat.co.za/mzansichat-share-1200x630.png"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.mzansichat.co.za/growth-setup#webpage","url":"https://www.mzansichat.co.za/growth-setup","isPartOf":{"@id":"https://www.mzansichat.co.za/#website"},"about":{"@id":"https://www.mzansichat.co.za/#business"}}]}</script><link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate icon" href="/favicon.ico" sizes="any">
@@ -195,6 +208,7 @@
 </div>
 </div>
 </section>
+<nav class="gs-jump-nav" aria-label="On this page"><div class="mc-wrap gs-jump-inner"><span class="gs-jump-label">Explore Growth Setup</span><div class="gs-jump-links"><a href="#approach">How it works</a><a href="#campaign-planning">Campaign planning</a><a href="#example-month">Example campaigns</a><a href="#pricing">Pricing</a><a href="#faq">FAQs</a></div></div></nav>
 <section aria-labelledby="gs-promise-title" class="gs-promise">
 <div class="mc-wrap gs-promise-grid">
 <h2 id="gs-promise-title">No advertising budget needed to begin. <br/>Just a smarter way to use what you have.</h2>
