@@ -127,6 +127,11 @@
     .mc-how-head {display:flex;gap:50px;align-items:end;justify-content:space-between;margin-bottom:49px}
     .mc-how-head .mc-section-title {max-width:670px;margin-bottom:0}
     .mc-how-head .mc-section-sub {max-width:315px;margin:0 0 5px;font-size:15px}
+    /* Homepage difference headline, deliberately full-width; other .mc-how sections unchanged. */
+    #mc-how .mc-how-head {display:block;text-align:center;margin-bottom:49px}
+    #mc-how .mc-how-head .mc-section-title {max-width:none;margin:18px auto 19px;font-size:clamp(30px,3.5vw,44px);line-height:1.17}
+    #mc-how .mc-how-head .mc-section-sub {max-width:750px;margin:0 auto;font-size:17px;line-height:1.7}
+
     .mc-steps {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
     .mc-step {background:#f9faf5;border:1px solid #e5ebe3;border-radius:20px;padding:21px 21px 28px;min-height:380px}
     .mc-step-art {height:188px;border-radius:13px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;margin-bottom:25px}
