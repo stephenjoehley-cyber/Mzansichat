@@ -116,6 +116,14 @@
 
     /* Three actual responsibilities */
     .mc-how {background:#fff;padding:103px 0 103px}
+    /* Light-background API explainer: do not inherit white text from the dark .mc-deliver tick list. */
+    .mc-api-explainer > .mc-wrap > p {font-size:17px;line-height:1.75;color:var(--ink-soft);max-width:790px;margin:0 0 20px}
+    .mc-api-explainer > .mc-wrap > h3 {font:600 clamp(25px,3vw,34px)/1.2 var(--serif);color:var(--ink);margin:40px 0 18px}
+    .mc-api-explainer .mc-tick-list {max-width:850px;margin:26px 0 32px;gap:18px}
+    .mc-api-explainer .mc-tick-list li {font-size:16px;line-height:1.65;color:var(--ink-soft)}
+    .mc-api-explainer .mc-tick-list li strong {color:var(--ink)}
+    .mc-api-explainer .mc-tick-list .mc-check {flex:0 0 auto}
+
     .mc-how-head {display:flex;gap:50px;align-items:end;justify-content:space-between;margin-bottom:49px}
     .mc-how-head .mc-section-title {max-width:670px;margin-bottom:0}
     .mc-how-head .mc-section-sub {max-width:315px;margin:0 0 5px;font-size:15px}
@@ -465,7 +473,7 @@
 </div>
 </div>
 </section>
-<section aria-labelledby="mc-api-explainer-title" class="mc-how">
+<section aria-labelledby="mc-api-explainer-title" class="mc-how mc-api-explainer">
 <div class="mc-wrap">
 <div class="mc-how-head"><div><span class="mc-eyebrow">Why the official WhatsApp platform?</span><h2 class="mc-section-title" id="mc-api-explainer-title">Your WhatsApp Business app handles conversations. We help you grow the business behind them.</h2></div><p class="mc-section-sub">The WhatsApp Business app is excellent for everyday customer chats. Building a growing customer list, responding to different enquiries and managing regular marketing campaigns calls for more.</p></div>
 <p>MzansiChat uses <strong>Meta's official WhatsApp Business Platform (API), connected through WhatChimp</strong>, to give your business more powerful tools.</p>
